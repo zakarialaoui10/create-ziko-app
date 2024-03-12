@@ -1,11 +1,10 @@
 {
-  "name": "creat-ziko-app",
+  "name": "create-ziko-app",
   "version": "0.0.0",
-  "description": "",
+  "description": "Easily create Ziko apps without any complicated build setup.",
   "keywords": [
     "ziko"
   ],
-  "type": "module",
   "files": [
     "starter",
     "LICENCE"
@@ -17,21 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakarialaoui10/create-ziko-app.js.git"
+    "url": "git+https://github.com/zakarialaoui10/create-ziko-app.git"
   },
   "author": "zakaria elalaoui",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zakarialaoui10/create-ziko-app.js/issues"
+    "url": "https://github.com/zakarialaoui10/create-ziko-app/issues"
   },
-  "homepage": "https://github.com/zakarialaoui10/create-ziko-app.js#readme",
-  "devDependencies": {
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "rollup": "^4.1.5",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-serve": "^1.1.1"
-  }
+  "homepage": "https://github.com/zakarialaoui10/create-ziko-app#readme"
 }
