@@ -2,10 +2,9 @@
   "name": "zikojs_starter_template",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "start": "node config/serve/index.js",
     "dev": "rollup -c config/dev/rollup.config.js",
     "watch": "rollup -c config/dev/rollup.config.js -w",
     "build": "rollup -c config/build/rollup.config.js"
