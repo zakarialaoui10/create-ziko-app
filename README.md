@@ -22,9 +22,10 @@ my-app
 │   ├── dev
 │   │   ├── rollup.config.js
 └── src
-    ├── main.js
+    ├── main.js 
 ```
 ## Scripts
  #### npm start
  #### npm run dev
  #### npm run build
+## Kit 
