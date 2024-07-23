@@ -12,7 +12,7 @@
   "author": "zakaria elaloui",
   "license": "MIT",
   "dependencies": {
-    "ziko": "^0.0.1"
+    "ziko": "0.0.10"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
