@@ -5,7 +5,7 @@
  npm run dev
 ```
 ## Output 
-```
+``` 
 my-app
 ├── README.md
 ├── node_modules
