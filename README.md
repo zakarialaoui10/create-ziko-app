@@ -6,7 +6,7 @@
 ```
 ## Output 
 ``` 
-my-app
+<!-- my-app
 ├── README.md
 ├── node_modules
 ├── package.json
@@ -23,7 +23,7 @@ my-app
 │   │   ├── rollup.config.js
 └── src
     ├── main.js 
-```
+``` -->
 ## Scripts
  #### npm start
  #### npm run dev
