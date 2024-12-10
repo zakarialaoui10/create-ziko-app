@@ -12,10 +12,21 @@ const runCommand=command=>{
   return true
 }
 
-const createFolder=(FolderName="")=>{
-  if (fs.existsSync(FolderName))fs.rmSync(FolderName, { recursive: true });
+const createFolder = (FolderName = "") => {
+  if (!FolderName) {
+    throw new Error("Folder name must be provided.");
+  }
+
+  if (fs.existsSync(FolderName)) {
+    console.log(`The project "${FolderName}" already exists.`);
+    return false;
+  }
+
   fs.mkdirSync(FolderName);
-}
+  console.log(`The project "${FolderName}" has been created.`);
+  return true
+};
+
 
 const copyFolder=(source, target)=>{
   (!fs.existsSync(target)) && fs.mkdirSync(target);

@@ -3,7 +3,7 @@ import pc from 'picocolors';
 const questions = [
     {
         type : "input",
-        name : "name",
+        name : "project_title",
         message :  "What is the name of the app ?",
         default : "my-zikojs-app"
     },
@@ -123,21 +123,14 @@ const questions = [
 ]
 
 export const parsePrompt= async ()=>{
-    const {name, language, template, wrapping_mode, wrapper} = await inquirer.prompt(questions);
-    let template_path = `template-${language}/${template}`;
+    const {project_title, language, template, wrapping_mode, wrapper} = await inquirer.prompt(questions);
+    let template_path = `templates-${language}/${template}`;
     if(template === "wrapper") {
         if(wrapping_mode) template_path = `${template_path}/ziko-${wrapper}`;
         else template_path = `${template_path}/${wrapper}-ziko`
     }
     return {
-        name,
+        project_title,
         template_path
     }
 }
-
-// parsePrompt().then(e=>console.log(e))
-// inquirer.prompt(questions).then(({language, template, wrapping_mode, wrapper}) => {
-//  console.log({language, template, wrapping_mode, wrapper})
-// });
-
-// export const a = 10

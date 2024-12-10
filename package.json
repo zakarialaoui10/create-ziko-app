@@ -12,7 +12,7 @@
   ],
   "scripts": {},
   "bin": {
-    "create-ziko-app": "starter/bin/index.js"
+    "create-ziko-app": "./bin/index.js"
   },
   "repository": {
     "type": "git",
