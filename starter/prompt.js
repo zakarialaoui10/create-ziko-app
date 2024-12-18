@@ -18,7 +18,8 @@ const questions = [
             },
             {
                 name : pc.blue("Typescript"),
-                value : "ts"
+                value : "ts",
+                disabled : 1==1 ? "Not supported yet" : false
             },
         ]
     },
@@ -117,13 +118,13 @@ const questions = [
     },
     { 
         type: 'confirm', 
-        name: 'install', 
+        name: 'confirm_install', 
         message: 'Do you want to install dependencies ?',
     }
 ]
 
 export const parsePrompt= async ()=>{
-    const {project_title, language, template, wrapping_mode, wrapper} = await inquirer.prompt(questions);
+    const {project_title, language, template, wrapping_mode, wrapper, confirm_install} = await inquirer.prompt(questions);
     let template_path = `templates-${language}/${template}`;
     if(template === "wrapper") {
         if(wrapping_mode) template_path = `${template_path}/ziko-${wrapper}`;
@@ -131,6 +132,7 @@ export const parsePrompt= async ()=>{
     }
     return {
         project_title,
-        template_path
+        template_path,
+        confirm_install
     }
 }
