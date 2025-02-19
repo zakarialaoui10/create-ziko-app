@@ -1,3 +1,4 @@
+<!-- add ssr -->
 ## Quick Start 
 ```bash
  npx create-ziko-app my-app
