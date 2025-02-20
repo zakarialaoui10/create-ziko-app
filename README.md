@@ -5,29 +5,42 @@
  cd my-app
  npm run dev
 ```
-## Output 
-``` 
-<!-- my-app
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   └── robots.txt
-├── config
-│   ├── build
-│   │   ├── rollup.config.js
-│   ├── dev
-│   │   ├── rollup.config.js
-└── src
-    ├── main.js 
-``` -->
 ## Scripts
  #### npm start
  #### npm run dev
  #### npm run build
 <!-- ## Kit 
 ## Vite -->
+
+# Currently supported template :
+ - Basic (Js ✅, Ts ❌)
+   - js
+   - ts 
+ - Wrapper 
+   - React
+     - Zikojs in React (Js ✅, Ts ❌)
+     - React in Zikojs 
+   - Vue 
+     - Zikojs in Vue (Js ✅, Ts ❌)
+     - Vue in Zikojs
+   - Preact 
+     - Zikojs in Preact
+     - Preact in Zikojs 
+   - Solidjs
+     - Zikojs in Solidjs
+     - Solidjs in Zikojs 
+   - Svelte
+     - Zikojs in Svelte
+     - Svelte in Zikojs  
+   - Astro (Js ✅, Ts ❌)
+ - Cross Platforms
+   - React Native
+   - Native Script 
+   - Capacitor
+   - Ionic
+   - Electron 
+   - Taruri 
+   - Wails
+   - Neutralino 
+   - NWjs 
+      
