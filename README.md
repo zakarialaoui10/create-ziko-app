@@ -1,21 +1,18 @@
-<!-- add ssr -->
-## Quick Start 
+# Ziko.js Starter 🚀  
+Ziko.js is a lightweight and flexible JavaScript framework designed to integrate seamlessly with modern frontend and cross-platform technologies.  
+This starter helps you quickly set up a Ziko.js project with various templates, including basic, web frameworks, SSR frameworks, and cross-platform solutions.
+
+## Quick Start  
+To create a new Ziko.js app, run:
+
 ```bash
- npx create-ziko-app my-app
- cd my-app
- npm run dev
+npx create-ziko-app my-app
+cd my-app
+npm run dev
 ```
-## Scripts
- #### npm start
- #### npm run dev
- #### npm run build
-<!-- ## Kit 
-## Vite -->
 
 # Currently supported template :
  - Basic (Js ✅, Ts ❌)
-   - js
-   - ts 
  - Wrapper 
    - React
      - Zikojs in React (Js ✅, Ts ❌)
@@ -24,23 +21,39 @@
      - Zikojs in Vue (Js ✅, Ts ❌)
      - Vue in Zikojs
    - Preact 
-     - Zikojs in Preact
+     - Zikojs in Preact (Js ✅, Ts ❌)
      - Preact in Zikojs 
    - Solidjs
-     - Zikojs in Solidjs
+     - Zikojs in Solidjs (Js ✅, Ts ❌)
      - Solidjs in Zikojs 
    - Svelte
-     - Zikojs in Svelte
+     - Zikojs in Svelte (Js ✅, Ts ❌)
      - Svelte in Zikojs  
    - Astro (Js ✅, Ts ❌)
+   - Next 
+   - Remix 
+   - SvelteKit 
+   - SolidStart 
+   - Qwik 
+   - Angular 
+   - Analog 
+   - Lit 
  - Cross Platforms
-   - React Native
-   - Native Script 
-   - Capacitor
-   - Ionic
-   - Electron 
-   - Taruri 
-   - Wails
-   - Neutralino 
-   - NWjs 
+   - Mobile Only
+     - React Native 
+     - Native script
+     - Capacitor 
+     - Ionic 
+     - Framework7 
+     - OnsenUI
+     - Titanium
+   - Desktop Only
+     - Electron
+     - Tauri 
+     - Wails 
+     - Neutralino 
+     - Nwjs
+   - Mobile & Desktop 
+     - Quasar
+
       
