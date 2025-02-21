@@ -49,11 +49,11 @@ npm run dev
      - Titanium
    - Desktop Only
      - Electron
-     - Tauri 
      - Wails 
      - Neutralino 
      - Nwjs
    - Mobile & Desktop 
+     - Tauri
      - Quasar
 
       
