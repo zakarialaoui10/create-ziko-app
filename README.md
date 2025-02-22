@@ -1,4 +1,4 @@
-# Ziko.js Starter 🚀  
+ n# Ziko.js Starter 🚀  
 Ziko.js is a lightweight and flexible JavaScript framework designed to integrate seamlessly with modern frontend and cross-platform technologies.  
 This starter helps you quickly set up a Ziko.js project with various templates, including basic, web frameworks, SSR frameworks, and cross-platform solutions.
 
@@ -55,5 +55,10 @@ npm run dev
    - Mobile & Desktop 
      - Tauri
      - Quasar
+
+<!-- Later 
+ Mezn Stack 
+ Streamlit ?
+-->
 
       
